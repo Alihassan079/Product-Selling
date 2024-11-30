@@ -18,7 +18,7 @@ function App() {
   const[orderPopup, setOrderPopup] = useState (false);
 
   const handleOrderPopup = () => {
-    setOrderPopup(!orderPopup);0
+    setOrderPopup(!orderPopup)
   };
   useEffect(() => {
     AOS.init({

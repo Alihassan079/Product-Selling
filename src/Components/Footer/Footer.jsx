@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 // import footerLogo from "../../assets/logo.png";
 // import Banner from "../../assets/website/footer-pattern.jpg";
 import { FiShoppingBag } from "react-icons/fi";
@@ -98,15 +99,15 @@ const Footer = () => {
 
             <div>
               <div className="flex items-center gap-3 mt-6">
-                <a href="https://www.instagram.com/ali_hassan51214/">
+                <Link to="https://www.instagram.com/ali_hassan51214/">
                   <FaInstagram className="text-3xl" />
-                </a>
-                <a href="#">
+                </Link>
+                <Link to="#">
                   <FaFacebook className="text-3xl" />
-                </a>
-                <a href="https://www.linkedin.com/in/ali-hassan-3310b8217/">
+                </Link>
+                <Link to="https://www.linkedin.com/in/ali-hassan-3310b8217/">
                   <FaLinkedin className="text-3xl" />
-                </a>
+                </Link>
               </div>
               <div className="mt-6">
                 <div className="flex items-center gap-3">
