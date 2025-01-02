@@ -46,7 +46,7 @@ const Navbar = () => {
           <div>
             <a href="#" className='font-bold text-xl text-white items-center flex gap-1'>
               <FiShoppingBag size="30" />
-              ShopMe
+              AshCart
             </a>
           </div>
 
